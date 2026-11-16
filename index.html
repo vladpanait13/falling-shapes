@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Falling Shapes</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="stage">
+        <div class="hud" aria-live="polite">
+          <div class="hud__field">Shapes: <output id="hud-count">0</output></div>
+          <div class="hud__field">Area: <output id="hud-area">0</output> px²</div>
+        </div>
+        <div id="canvas-host" class="canvas-host"></div>
+      </section>
+      <section id="controls" class="controls"></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
