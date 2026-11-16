@@ -1,9 +1,8 @@
-# Falling Shapes (PIXI.js + TypeScript)
+# Falling Shapes (TypeScript)
 
 ## Run
     npm install
     npm run dev      # http://localhost:5173
-    npm run build    # type-check + production bundle in /dist
 
 ## Structure
     src/
@@ -22,6 +21,6 @@
                StepperControl +/- HTML controls
       utils/   random.ts, geometry.ts
 
-## Notes
-- Area = sum of polygon areas of shapes at least partly inside the rectangle (overlaps counted twice).
-- Gravity is acceleration: px/s² = gravity value x 40.
+## Demo
+
+![Falling Shapes screenshot](image.png)
